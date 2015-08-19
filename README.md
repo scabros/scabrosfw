@@ -2,7 +2,7 @@
 
 ## Features:
 
-This are the main features present in the framework by now...
+These are the main features present in the framework by now...
 
 - native PHP templates support
 - supports translations
