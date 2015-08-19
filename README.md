@@ -1,7 +1,5 @@
 #ScabrosFW - PHP micro-framework
 
-===
-
 ## Features:
 
 This are the main features present in the framework by now...
@@ -15,8 +13,6 @@ This are the main features present in the framework by now...
 - simple data validation
 - simple response messages convention
 - decoupled components
-
-===
 
 ## The Idea:
 
@@ -69,11 +65,12 @@ and data properties
 ## Third Party Software
 
 Currently the framework includes some other work or projects:
+
 - NotifyIt
 - TinyMCE
 - ... 
 
-===
+## Final Words
 
 This is a work in progress, any advice or help is welcome. I dont believe i am 
 a genius, this CAN have problems so check it out.
