@@ -143,6 +143,7 @@ Currently the framework includes some other work or projects:
 - PhpMailer for emails
 - SQL with prepared statements
 - File uploading class with validation
+- Some kind of permission management
 - Composer integration?
 
 ## Final Words

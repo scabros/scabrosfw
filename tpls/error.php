@@ -12,6 +12,15 @@
 <script type="text/javascript" src="<?php echo URL; ?>js/notifIt.js"></script>
 <script type="text/javascript" src="<?php echo URL; ?>js/notify.min.js"></script>
 <script type="text/javascript" src="<?php echo URL; ?>js/common.js"></script>
+<style type="text/css">
+pre {
+  white-space: pre-wrap;       /* CSS 3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+</style>
 </head>
 <body>
   <header>
@@ -31,7 +40,9 @@
     <section id="caracteristicas3">
       <h4 style="margin-left: 10%;">Ups...hubo un problema. Int&eacute;ntalo nuevamente</h4>
       <div>
-        <div width="50%;"><?php if(isset($error)) echo $error; ?></div>
+        <div width="50%;" style="font-size: small;">
+          <pre><?php if(isset($error)) echo $error; ?></pre>
+        </div>
         <div width="50%;">
           <img style="float: right" src="img/Ninja_Male.png" width="100px" alt="error" />
         </div>

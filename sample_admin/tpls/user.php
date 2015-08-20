@@ -4,7 +4,7 @@
 <?php if(isset($msg)) { echo $msg; } ?>
 <div id="datosclientes">
 	<div class="divLabelL">Usuario: </div> 
-	<div class="divValueR"><?php echo $user; ?></div>
+	<div class="divValueR"><?php echo $name; ?></div>
 	<div class="borrar"> </div>
 </div>
 <div class="borrar"> </div>

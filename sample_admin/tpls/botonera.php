@@ -1,7 +1,7 @@
 <ul>
-  <?php if(isset($_SESSION['adminID']) && !empty($_SESSION['adminID'])){ ?>
+  <?php if(isset($_SESSION['userID']) && !empty($_SESSION['userID'])){ ?>
   <li>
-    <a href="admin.php">Mis datos</a> 
+    <a href="user.php">Mis datos</a> 
   </li>
   <li>
     <a href="entries.php">Posteos</a> 

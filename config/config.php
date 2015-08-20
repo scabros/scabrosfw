@@ -1,11 +1,11 @@
 <?php
 
-define('URL', 'http://localhost/scabrosfw/');
+define('URL', 'http://localhost/xampp/scabrosfw/');
 define('SYSROOT', 'C:\xampp\htdocs\xampp\scabrosfw\\');
 define('COREROOT', SYSROOT.'core/');
 define('WEBROOT', SYSROOT);
 define('DATAROOT', SYSROOT.'data/');
-define('DOMAIN', 'http://localhost/scabrosfw/');
+define('DOMAIN', 'http://localhost/xampp/scabrosfw/');
 define('TITLE', 'ScabrosFW');
 
 
