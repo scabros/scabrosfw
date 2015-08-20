@@ -55,7 +55,7 @@ pre {
       <img width="84" height="68">
     </div>
     <div id="datos">
-      <a href="mailto:roberto.scattini@gmail.com">roberto.scattini@gmail.com</a>
+      <a href="https://github.com/scabros/scabrosfw">Fork on Github</a>
     </div>
   </footer>
   <?php getNotification(); ?>

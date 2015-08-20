@@ -8,9 +8,9 @@ if(!isset($_POST['entrar'])){
   
 } else {
   
-  $response = Admin::login($_POST);
+  $response = User::login($_POST);
   if($response['success']){
-    redirect('admin.php');
+    redirect('user.php');
   } else {
     $data = $response['data'];
     $data['msg'] = $response['msg'];

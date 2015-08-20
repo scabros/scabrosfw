@@ -1,37 +1,22 @@
-.button-variant(@color; @background; @border) {
-	color: @color;
-	background-color: @background;
-	border-color: @border;
+// Mixins
 
-	&:hover,
-	&:focus,
-	&:active,
-	&.active,
-	.open .dropdown-toggle& {
-		color: @color;
-		background-color: darken(@background, 10%);
-        border-color: darken(@border, 12%);
-	}
-	&:active,
-	&.active,
-	.open .dropdown-toggle& {
-		background-image: none;
-	}
-	&.disabled,
-	&[disabled],
-	fieldset[disabled] & {
-		&,
-		&:hover,
-		&:focus,
-		&:active,
-		&.active {
-			background-color: @background;
-			border-color: @border;
-		}
-	}
+.transition-all() {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
 
-	.badge {
-		color: @background;
-		background-color: @color;
-	}
+.background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.serif() {
+	font-family: 'Lora', 'Times New Roman', serif;
+}
+
+.sans-serif () {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

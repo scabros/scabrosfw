@@ -31,10 +31,19 @@ function sys_error($errno, $errstr, $errfile, $errline){
 
     // armar debug compacto
     foreach ($data as $bt) {
-      if(isset($bt['file'])){
-        $debug_log .= $bt['file']." @ ".$bt['line']." -> ".$bt['function']."(".implode(',', $bt['args']).") \n";
-        //$debug_log .= print_r($bt, true)."\n";
-      }
+
+      if(isset($bt['file']))
+        $debug_log .= $bt['file'];
+
+      if(isset($bt['line']))
+        $debug_log .= " @ ".$bt['line'];
+
+      if(isset($bt['function']))
+        $debug_log .= " -> ".$bt['function'];
+
+      if(isset($bt['args']) && is_array($bt['args']))
+        $debug_log .= "(".print_r($bt['args'], true).")\n";
+
     }
 
   } else {
@@ -71,6 +80,7 @@ function fatal_handler() {
   $errline = 0;
 
   $error = error_get_last();
+  //var_dump($error);die();
 
   if( $error !== NULL) {
     $errno   = $error["type"];

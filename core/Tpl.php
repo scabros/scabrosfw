@@ -1,19 +1,29 @@
 <?php
  
 class Tpl {
-   private static $baseDir = '.';
-   private static $tplExt  = '.php';
+  private static $baseDir = '.';
+  private static $tplExt  = '.php';
 
-   public static function loadTemplate($template, $vars = array(), $baseDir=null){
+  private static function getPath($template){
+
+    if(file_exists(getcwd().'/tpls/'.$template.'.php')){
+      $dir = getcwd().'/tpls/';
+    } elseif(file_exists(SYSROOT.'/tpls/'.$template.'.php')){
+      $dir = SYSROOT.'/tpls/';
+    } else {
+      //die("TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO ".$template." en ".getcwd().'/tpls/'.$template.'.php ni en '.SYSROOT.'/tpls/'.$template.'.php');
+      trigger_error("TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO ".$template." en ".getcwd().'/tpls/'.$template.'.php ni en '.SYSROOT.'/tpls/'.$template.'.php');
+    }
+    //die('aca llegamos barrrrbaro4'.$dir);
+    return $dir;
+  }
+
+  public static function loadTemplate($template, $vars = array(), $baseDir=null){
     if($baseDir == null){
-      $baseDir = self::$baseDir;
+      $baseDir = self::getPath($template);
     }
      
     $templatePath = $baseDir.'/'.$template.''.self::$tplExt;
-
-    if(!file_exists($templatePath)){
-      throw new Exception('Could not include template '.$templatePath);
-    }
 
     return self::loadTemplateFile($templatePath, $vars);
   }

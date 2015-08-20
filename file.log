@@ -1,0 +1,1641 @@
+########
+Error [1] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\init.php (linea 4) 
+Call to undefined function checkLogin()
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(1,Call to undefined function checkLogin(),C:\xampp\htdocs\xampp\scabrosfw\init.php,4) 
+########
+Error [1] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\init.php (linea 4) 
+Call to undefined function checkLogin()
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(1,Call to undefined function checkLogin(),C:\xampp\htdocs\xampp\scabrosfw\init.php,4) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php (linea 67) 
+DATA_SELECT|Unknown column 'name' in 'field list'
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 67 -> trigger_error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 7 -> error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\classes\Admin.php @ 49 -> fetch(SELECT name, bg_image, subtitle FROM users WHERE adm = '1') 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 5 -> getData(1) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php (linea 67) 
+DATA_SELECT|Unknown column 'name' in 'field list'
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 67 -> trigger_error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 7 -> error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\classes\Admin.php @ 49 -> fetch(SELECT name, bg_image, subtitle FROM users WHERE adm = '1') 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 5 -> getData(1) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php (linea 67) 
+DATA_SELECT|Unknown column 'name' in 'field list'
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 67 -> trigger_error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 7 -> error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\classes\Admin.php @ 49 -> fetch(SELECT name, bg_image, subtitle FROM users WHERE adm = '1') 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 5 -> getData(1) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php (linea 67) 
+DATA_SELECT|Unknown column 'name' in 'field list'
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 67 -> trigger_error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 7 -> error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\classes\Admin.php @ 49 -> fetch(SELECT name, bg_image, subtitle FROM users WHERE adm = '1') 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 5 -> getData(1) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php (linea 67) 
+DATA_SELECT|Unknown column 'name' in 'field list'
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 67 -> trigger_error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\core\Sql.php @ 7 -> error(DATA_SELECT|Unknown column 'name' in 'field list') 
+C:\xampp\htdocs\xampp\scabrosfw\classes\Admin.php @ 49 -> fetch(SELECT name, bg_image, subtitle FROM users WHERE adm = '1') 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 5 -> getData(1) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php (linea 7) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php @ 7 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php,7,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 34 -> require(C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 18 -> loadTemplateFile(C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls//admin.php,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 19 -> loadTemplate(admin,Array,C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls/) 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 9 -> loadTemplate(admin,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php (linea 7) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php @ 7 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php,7,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 34 -> require(C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 18 -> loadTemplateFile(C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls//admin.php,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 19 -> loadTemplate(admin,Array,C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls/) 
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php @ 9 -> loadTemplate(admin,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php (linea 7) 
+Array to string conversion
+Array
+(
+    [file] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php
+    [line] => 7
+    [function] => sys_error
+    [args] => Array
+        (
+            [0] => 8
+            [1] => Array to string conversion
+            [2] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php
+            [3] => 7
+            [4] => Array
+                (
+                    [_tpl_] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls//admin.php
+                    [_vars_] => Array
+                        (
+                            [user] => Array
+                                (
+                                )
+
+                        )
+
+                    [user] => Array
+                        (
+                        )
+
+                    [_ret_] => 
+                )
+
+        )
+
+)
+
+Array
+(
+    [file] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+    [line] => 34
+    [args] => Array
+        (
+            [0] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\tpls\admin.php
+        )
+
+    [function] => require
+)
+
+Array
+(
+    [file] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+    [line] => 18
+    [function] => loadTemplateFile
+    [class] => Tpl
+    [type] => ::
+    [args] => Array
+        (
+            [0] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls//admin.php
+            [1] => Array
+                (
+                    [user] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [file] => C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php
+    [line] => 19
+    [function] => loadTemplate
+    [class] => Tpl
+    [type] => ::
+    [args] => Array
+        (
+            [0] => admin
+            [1] => Array
+                (
+                    [user] => Array
+                        (
+                        )
+
+                )
+
+            [2] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin/tpls/
+        )
+
+)
+
+Array
+(
+    [file] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\admin.php
+    [line] => 9
+    [function] => loadTemplate
+    [class] => Layout
+    [object] => Layout Object
+        (
+            [dir:protected] => 
+            [file:protected] => 
+        )
+
+    [type] => ->
+    [args] => Array
+        (
+            [0] => admin
+            [1] => Array
+                (
+                    [user] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [1] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php (linea 22) 
+Call to undefined method Layout::mobiLayout()
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(1,Call to undefined method Layout::mobiLayout(),C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php,22) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [4] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 31) 
+syntax error, unexpected 'public' (T_PUBLIC)
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(4,syntax error, unexpected 'public' (T_PUBLIC),C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,31) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 8) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> sys_error(8,Undefined variable: dir,C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php,8,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\error.php @ 12 -> loadTemplate(error,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 80 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+Array
+(
+    [function] => sys_error
+    [args] => Array
+        (
+            [0] => 1024
+            [1] => TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+            [2] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+            [3] => 15
+            [4] => Array
+                (
+                    [template] => index
+                )
+
+        )
+
+)
+
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 81 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+Array
+(
+    [function] => fatal_handler
+    [args] => Array
+        (
+        )
+
+)
+
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+Array
+(
+    [function] => sys_error
+    [args] => Array
+        (
+            [0] => 1024
+            [1] => TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+            [2] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+            [3] => 15
+            [4] => Array
+                (
+                    [template] => index
+                )
+
+        )
+
+)
+
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+Array
+(
+    [function] => sys_error
+    [args] => Array
+        (
+            [0] => 1024
+            [1] => TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+            [2] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+            [3] => 15
+            [4] => Array
+                (
+                    [template] => index
+                )
+
+        )
+
+)
+
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index) 
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array) 
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array) 
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 35) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 82 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,35) 
+Array
+(
+    [function] => fatal_handler
+    [args] => Array
+        (
+        )
+
+)
+
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+ -> sys_error(1024,TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php,C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php,15,Array)
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php)
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(index)
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(index,Array)
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(index,Array)
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\core.php (linea 45) 
+Array to string conversion
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 90 -> sys_error(8,Array to string conversion,C:\xampp\htdocs\xampp\scabrosfw\core\core.php,45)
+ -> fatal_handler()
+########
+Error [1024] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php (linea 15) 
+TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+ -> sys_error(Array
+(
+    [0] => 1024
+    [1] => TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+    [2] => C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php
+    [3] => 15
+    [4] => Array
+        (
+            [template] => index
+        )
+
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 15 -> trigger_error(Array
+(
+    [0] => TPL_NOT_FOUND|NO SE ENCUENTRA EL ARCHIVO index en C:\xampp\htdocs\xampp\scabrosfw/tpls/index.php ni en C:\xampp\htdocs\xampp\scabrosfw\/tpls/index.php
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\core\Tpl.php @ 23 -> getPath(Array
+(
+    [0] => index
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 8 -> loadTemplate(Array
+(
+    [0] => index
+    [1] => Array
+        (
+        )
+
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\index.php @ 5 -> loadTemplate(Array
+(
+    [0] => index
+    [1] => Array
+        (
+        )
+
+)
+)
+########
+Error [1] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php (linea 22) 
+Call to undefined method Layout::mobiLayout()
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 90 -> sys_error(Array
+(
+    [0] => 1
+    [1] => Call to undefined method Layout::mobiLayout()
+    [2] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php
+    [3] => 22
+)
+)
+ -> fatal_handler(Array
+(
+)
+)
+########
+Error [8] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php (linea 47) 
+Undefined variable: dir
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 47 -> sys_error(Array
+(
+    [0] => 8
+    [1] => Undefined variable: dir
+    [2] => C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php
+    [3] => 47
+    [4] => Array
+        (
+        )
+
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\core\Layout.php @ 14 -> getHeader(Array
+(
+)
+)
+C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php @ 22 -> mobiLayout(Array
+(
+    [0] => <div id="iconoipad6"></div>
+<div id="tituloseccion1">
+  <h2> Administrador</h2>
+</div>
+<section id="caracteristicas">
+  <div id="imagenusuario"> </div>
+  <div id="formulario">
+    <form action="" method="post">
+    Usuario (*):<br/> <input type="text" name="user" required />
+    Clave (*):<br/> <input type="password" name="pass" required />
+    <input type="submit" name="entrar" value="Ingresar" class="envio"/>
+  </form>
+  </div>
+  <div class="borrar"> </div>
+</section>
+
+)
+)
+########
+Error [1] en el archivo: C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php (linea 11) 
+Class 'Admin' not found
+C:\xampp\htdocs\xampp\scabrosfw\core\core.php @ 90 -> sys_error(Array
+(
+    [0] => 1
+    [1] => Class 'Admin' not found
+    [2] => C:\xampp\htdocs\xampp\scabrosfw\sample_admin\login.php
+    [3] => 11
+)
+)
+ -> fatal_handler(Array
+(
+)
+)
