@@ -48,6 +48,74 @@ the error msg with the appropiate function.
 As you see, the flow of the application is in total control of the developer,
 but he is encouraged to follow some key concepts.
 
+### login.php "micro-controller":
+```
+<?php
+require('../load.php');
+if(!isset($_POST['entrar'])){
+  
+  $data = array('user' => '');
+  $error = array();
+ 
+} else {
+  
+  $response = Admin::login($_POST);
+  if($response['success']){
+    redirect('admin.php');
+  } else {
+    $data = $response['data'];
+    $data['msg'] = $response['msg'];
+  }
+  
+}
+$tpl = new Layout();
+echo $tpl->mobiLayout($tpl->loadTemplate('login', $data));
+```
+
+### Admin class, login static method:
+
+```
+<?php
+class Admin {
+  
+  static function login($data){
+    
+    $p = array(
+      'user' => array('required' => true, 'type' => 'string', 'label' => 'Usuario', 'maxLength' => 30),
+      'pass' => array('required' => true, 'type' => 'password', 'label' => 'Contrase&ntilde;a', 'maxLength' => 30)
+    );
+    $v = new Validator();
+    $response = $v->validate($data, $p);
+    
+    if(!$response['success']){
+        return array(
+        'success' => false,
+        'data' => $data,
+        'msg' => $response['msg']
+        );
+    }
+    Sql::$conn = connectDB();
+    $user = Sql::esc($data['user']);
+    $pass = Sql::esc($data['pass']);
+  
+    $u = Sql::fetch("SELECT id, adm from users where adm ='".$user. "' AND pass = MD5('".$pass."')");
+    
+    if(count($u) == 1){
+      $_SESSION['adminID']   = $u[0]['id'];
+      $_SESSION['adminNAME'] = $u[0]['adm'];
+      
+      return array('success' => true);
+    } else {
+      
+      return array(
+        'success' => false,
+        'data' => array('user' => $data['user']),
+        'msg' => 'Usuario o contraseña invalida'
+        );
+      
+    }
+  }
+```
 
 ## Conventions:
 - All of your custom classes should be in the classes folder of the framework
@@ -69,6 +137,13 @@ Currently the framework includes some other work or projects:
 - NotifyIt
 - TinyMCE
 - ... 
+
+## Future additions
+- Routing class
+- PhpMailer for emails
+- SQL with prepared statements
+- File uploading class with validation
+- Composer integration?
 
 ## Final Words
 
