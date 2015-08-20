@@ -70,6 +70,13 @@ Currently the framework includes some other work or projects:
 - TinyMCE
 - ... 
 
+## Future additions
+- Routing class
+- PhpMailer for emails
+- SQL with prepared statements
+- File uploading class with validation
+- Composer integration?
+
 ## Final Words
 
 This is a work in progress, any advice or help is welcome. I dont believe i am 
