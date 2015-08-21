@@ -5,24 +5,19 @@ class User {
   static function login($data){
     
     $p = array(
-      'user' => array('required' => true, 'type' => 'string', 'label' => 'Usuario', 'maxLength' => 30),
-      'pass' => array('required' => true, 'type' => 'password', 'label' => 'Contrase&ntilde;a', 'maxLength' => 30)
+      'user' => array('required' => true, 'type' => 'string', 'label' => 'Usuario', 'maxLength' => 30)
     );
+
     $v = new Validator();
     $response = $v->validate($data, $p);
     
     if(!$response['success']){
-        return array(
-        'success' => false,
-        'data' => $data,
-        'msg' => $response['msg']
-        );
+      return M::cr(false, $data, $response['msg']);
     }
 
     Sql::$conn = connectDB();
     $user = Sql::esc($data['user']);
     $pass = Sql::esc($data['pass']);
-  
 
     $u = Sql::fetch("SELECT id, adm from users where adm ='".$user. "' AND pass = MD5('".$pass."') AND active = 1");
     
@@ -30,14 +25,10 @@ class User {
       $_SESSION['userID']   = $u[0]['id'];
       $_SESSION['userNAME'] = $u[0]['adm'];
       
-      return array('success' => true);
+      return M::cr(true);
     } else {
       
-      return array(
-        'success' => false,
-        'data' => array('user' => $data['user']),
-        'msg' => 'Usuario o contraseña invalida'
-        );
+      return M::cr(false, array('user' => $data['user']), 'Usuario o contraseña invalida');
       
     }
   }

@@ -9,7 +9,7 @@ class T {
     self::$vars = $vars;
   }
 
-  public static function show($varname){
+  public static function sh($varname){
     if(isset(self::$vars[$varname])){
       return self::$vars[$varname];
     } else {
@@ -17,7 +17,7 @@ class T {
     }
   }
 
-  public static function trans($str, $lang){
+  public static function tr($str, $lang){
     if(isset(self::$trans[$lang][$str])){
       return self::$trans[$lang][$str];
     } else {
