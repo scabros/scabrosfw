@@ -4,67 +4,56 @@ class Entries {
   
   static function get($id = null){
     Sql::$conn = connectDB();
-    if(!empty($id)){
-      $where = ' WHERE id = '.Sql::esc($id);
-    } else {
-      $where = '';
-    }
 
-    $p = Sql::fetch("SELECT * FROM entries $where ORDER BY id DESC");
+    $sql = "SELECT * FROM entries WHERE id = ".Sql::esc($id)." ORDER BY id DESC";
+    $p = Sql::fetch($sql);
     
     if(count($p) == 0){
-      return array(
-        'success' => true, 
-        'data' => array(),
-        'msg' => "No se encontraron posteos"
-        );
-    } elseif(count($p) > 0) {
-      return array(
-        'success' => true,
-        'data' => $p,
-        );
+
+      return M::cr(false, array(), "No se encontro el post");
+
+    } elseif(count($p) == 1) {
+
+      return M::cr(true, $p[0]);
+
     } else {
-      return array(
-        'success' => false,
-        'data' => array(),
-        'msg' => 'Hubo un error con la consulta'
-        );
+
+      return M::cr(false, array(), 'Hubo un error con la consulta');
+
     }
   }
   
-  static function getAll($author){
+  static function getAll($author = null){
     Sql::$conn = connectDB();
-    $author = Sql::esc($author);
+
+    if(!empty($author)){
+      $filter =  "WHERE author = '".Sql::esc($author)."'";
+    } else {
+      $filter = '';
+    }
     
-    $p = Sql::fetch("SELECT * FROM entries WHERE author = '$author' ORDER BY date DESC");
+    $p = Sql::fetch("SELECT * FROM entries $filter ORDER BY date DESC");
     
     if(count($p) == 0){
-      return array(
-        'success' => true, 
-        'data' => array(),
-        'msg' => "No se encontraron posteos"
-        );
+
+      return M::cr(true, array(), "No se encontraron posteos");
+
     } elseif(count($p) > 0) {
-      return array(
-        'success' => true,
-        'data' => $p,
-        );
+
+      return M::cr(true, $p);
+
     } else {
-      return array(
-        'success' => false,
-        'data' => array(),
-        'msg' => 'Hubo un error con la consulta'
-        );
+
+      return M::cr(false, array(), 'Hubo un error con la consulta');
+
     }
   }
   
   static function newEntry($data){
     $p = array(
       'title'  => array('required' => true, 'type' => 'string', 'maxlength' => 140, 'label' => 'Titulo'),
-      //'author' => array('required' => true, 'type' => 'string', 'label' => 'Autor'),
       'text' => array('required' => true, 'type' => 'string', 'label' => 'Texto'),
       'image' => array('required' => false, 'type' => 'thumbnail', 'label' => 'Imagen'),
-      //'date'  => array('required' => true, 'type' => 'date', 'label' => 'Fecha'),
       'tags'  => array('required' => false, 'type' => 'string', 'label' => 'Tags')
     );
     
@@ -72,17 +61,13 @@ class Entries {
     $response = $v->validate($data, $p);
     
     if(!$response['success']){
-      return array(
-        'success' => false,
-        'data' => $data,
-        'msg' => $response['msg']
-      );
+      return M::cr(false, $data, $response['msg']);
     }
 
     Sql::$conn = connectDB();
 
     $title  = Sql::esc($data['title']);
-    $author = Sql::esc($_SESSION['adminNAME']);
+    $author = Sql::esc($_SESSION['userNAME']);
     $text   = Sql::esc($data['text']);
     $tags   = Sql::esc($data['tags']);
     
@@ -102,24 +87,18 @@ class Entries {
     Sql::commitTransac();
     
     if(isset($_FILES['foto']['tmp_name'])){
-      move_uploaded_file($_FILES['foto']['tmp_name'], WEBROOT.'data/'.$c);
+      move_uploaded_file($_FILES['foto']['tmp_name'], WEBROOT."data/".$c);
     }
     
-    return array(
-      'success' => true,
-      'data' => $c,
-      'msg' => 'Se ha creado el posteo'
-    );
+    return M::cr(true, $c, 'Se ha creado el posteo');
   }
   
   public static function edit($data){
     
     $p = array(
       'title'  => array('required' => true, 'type' => 'string', 'maxlength' => 140, 'label' => 'Titulo'),
-      //'author' => array('required' => true, 'type' => 'string', 'label' => 'Autor'),
       'text' => array('required' => true, 'type' => 'string', 'label' => 'Texto'),
       'image' => array('required' => false, 'type' => 'thumbnail', 'label' => 'Imagen'),
-      //'date'  => array('required' => true, 'type' => 'date', 'label' => 'Fecha'),
       'tags'  => array('required' => false, 'type' => 'string', 'label' => 'Tags')
     );
     
@@ -127,11 +106,7 @@ class Entries {
     $response = $v->validate($data, $p);
     
     if(!$response['success']){
-      return array(
-        'success' => false,
-        'data' => $data,
-        'msg' => $response['msg']
-      );
+      return M::cr(false, $data, $response['msg']);
     }
     
     Sql::$conn = connectDB();
@@ -145,13 +120,14 @@ class Entries {
     
     $id = $data['id'];
     
-    $query = "UPDATE entries SET title = '".Sql::esc($data['title']). "', author = '".Sql::esc($_SESSION['adminNAME']). "', text = '".Sql::esc($data['text']). "', $imgData tags = '".Sql::esc($data['tags']). "' WHERE id = '$id'"; 
+    $query = "UPDATE entries SET title = '".Sql::esc($data['title']). "', 
+      author = '".Sql::esc($_SESSION['userNAME']). "', 
+      text = '".Sql::esc($data['text']). "', 
+      $imgData 
+      tags = '".Sql::esc($data['tags']). "' 
+      WHERE id = '$id'"; 
     Sql::update($query);
     
-    return array(
-      'success' => true,
-      'data' => array(),
-      'msg' => 'Se han actualizado los datos correctamente'
-    );
+    return M::cr(true, array(), 'Se han actualizado los datos correctamente');
   }
 }

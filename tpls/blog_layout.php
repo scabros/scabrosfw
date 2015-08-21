@@ -36,6 +36,7 @@
 
 <body>
 	<?php echo $cabecera; ?>
+  <?php echo $navigation; ?>
 	<?php echo $contenido; ?>
 	<?php echo $footer; ?>
   <!-- jQuery -->

@@ -102,7 +102,7 @@ class Admin {
     
     if(count($u) == 1){
       $_SESSION['adminID']   = $u[0]['id'];
-      $_SESSION['adminNAME'] = $u[0]['adm'];
+      $_SESSION['userNAME'] = $u[0]['adm'];
       
       return array('success' => true);
     } else {

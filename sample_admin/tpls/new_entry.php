@@ -6,8 +6,7 @@
 <form action="" method="post" id="editar-datos" enctype="multipart/form-data">
   
 Titulo (*): <input type="text" name="title" <?php if(isset($title)){ echo 'value="'.$title.'"'; }?> required />
-Texto (*): <input type="text" name="text" <?php if(isset($text)){ echo 'value="'.$text.'"'; }?> required  />
-<!-- Fecha (*): <input type="date" name="date" value="<?php if(isset($date)){ echo $date; } else { echo date('d-m-Y');}?>" /> -->
+Texto (*): <textarea name="text" style="width:100%"><?php if(isset($text)){ echo $text; }?></textarea>
 Tags (*): <input type="text" name="tags" <?php if(isset($tags)){ echo 'value="'.$tags.'"'; }?> />
 Imagen (*): <input type="file" id="image" name="image" />
 
@@ -15,5 +14,16 @@ Imagen (*): <input type="file" id="image" name="image" />
 </form>
 <div class="borrar"> </div>
 </section>
-<script>
+<script type="text/javascript" src="<?php echo URL;?>js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    menubar : false,
+    plugins: [
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table contextmenu paste"
+    ],
+    toolbar: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+});
 </script>

@@ -9,11 +9,11 @@ if(!isset($_POST['entrar'])){
 } else {
   
   $response = User::login($_POST);
-  if($response['success']){
+  if($response->success){
     redirect('user.php');
   } else {
-    $data = $response['data'];
-    $data['msg'] = $response['msg'];
+    $data = $response->data;
+    $data['msg'] = $response->msg;
   }
   
 }

@@ -2,7 +2,7 @@
 
 class M {
 
-  public static function create($s, $d = array(), $m = null){
+  public static function cr($s, $d = array(), $m = null){
     
     if (is_bool($s) === false) {
       trigger_error('M class incorrect success property type. must be boolean');

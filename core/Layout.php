@@ -20,21 +20,21 @@ class Layout {
 
 
   public function blogLayout($content = ''){
-    $dir = SYSROOT.'tpls/';
     return Tpl::loadTemplate('blog_layout', array(
-      'cabecera'  => $this->getBlogHeader(),
-      'contenido' => $content,
-      'footer'    => $this->getBlogFooter()
-      ), $dir);
+      'cabecera'   => $this->getBlogHeader(),
+      'navigation' => $this->getBlogNavigation(),
+      'contenido'  => $content,
+      'footer'     => $this->getBlogFooter()
+      ));
   }
 
   public function entriesLayout($content = ''){
-    $dir = SYSROOT.'tpls/';
-    return Tpl::loadTemplate('entries', array(
-      'ads_header' => '',
-      'ads_footer' => '',
-      'contenido'  => $content
-      ), $dir);
+    return Tpl::loadTemplate('blog_layout', array(
+      'cabecera'  => '',
+      'navigation' => $this->getBlogNavigation(),
+      'contenido' => $content,
+      'footer'    => $this->getBlogFooter()
+      ));
   }
 
   private function getNavigation(){
@@ -55,6 +55,10 @@ class Layout {
 
   private function getBlogHeader(){
     return Tpl::loadTemplate('blog_header', array());
+  }
+
+  private function getBlogNavigation(){
+    return Tpl::loadTemplate('blog_navigation', array());
   }
 
   private function getBlogFooter(){

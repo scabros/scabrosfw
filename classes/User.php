@@ -26,6 +26,7 @@ class User {
       $_SESSION['userNAME'] = $u[0]['adm'];
       
       return M::cr(true);
+
     } else {
       
       return M::cr(false, array('user' => $data['user']), 'Usuario o contraseña invalida');
@@ -44,19 +45,12 @@ class User {
       $data['bg_image'] = $d[0]['bg_image'];
       $data['subtitle'] = $d[0]['subtitle'];
       
-      return array(
-        'success' => true,
-        'data' => $data
-        );
+      return M::cr(true, $data);
 
     } else {
-    
-    return array(
-      'success' => false,
-      'data' => array('user' => array() ),
-      'msg' => 'No se encontraron datos del usuario'
-      );
-    
+
+      return M::cr(false, array('user' => array() ), 'No se encontraron datos del usuario');
+      
     }
   }
 }

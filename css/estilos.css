@@ -260,17 +260,16 @@ footer a {
 	top:30px;
 	z-index:5px;
 }
+/*
 #iconoipad1{
-		background-image:url(../img/icono_beneficios.png);
+	background-image:url(../img/icono_beneficios.png);
 }
 #iconoipad2 {
 	background-image:url(../img/icono_productos.png);
-	
 }
 
 #iconoipad3 {
 	background-image:url(../img/icono_nosotros.png);
-	
 }
 
 #iconoipad4 {
@@ -283,7 +282,8 @@ footer a {
 
 #iconoipad6 {
 	background-image:url(../img/icono_usuario.png);
-}
+}*/
+
 .darkClass
 {
     background-color: #F7D266;
