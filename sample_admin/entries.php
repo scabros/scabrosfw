@@ -2,14 +2,14 @@
 require('../load.php');
 require('../init.php');
 
-$response = Entries::get();
+$response = Entries::getAll($_SESSION['userNAME']);
 $tpl = new Layout();
 $data = array();
 
-if($response['success'] == true){
-	$data['entries'] = $response['data'];
+if($response->success == true){
+	$data['entries'] = $response->data;
 } else {
-	$data['msg'] = $response['msg'];
+	$data['msg'] = $response->msg;
 }
 
 

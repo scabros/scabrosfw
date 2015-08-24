@@ -90,7 +90,7 @@ class Entries {
       move_uploaded_file($_FILES['foto']['tmp_name'], WEBROOT."data/".$c);
     }
     
-    return M::cr(true, $c, 'Se ha creado el posteo');
+    return M::cr(true, array($c), 'Se ha creado el posteo');
   }
   
   public static function edit($data){

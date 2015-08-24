@@ -9,22 +9,22 @@ if(isset($_POST)){
   if(!isset($_POST['accion'])){
 
     $response = Entries::get($_POST['id']);
-    $data = $response['data'][0];
+    $data = $response->data;
     echo $tpl->mobiLayout($tpl->loadTemplate('edit_entries', $data));
     
   } else {
   
     $response = Entries::edit($_POST);
     
-    if($response['success']){
+    if($response->success){
       
-      setNotification('success', $response['msg']);
+      setNotification('success', $response->msg);
       redirect('entries.php');
       
     } else {
       
-      $data = $response['data'];
-      $data['error'] = $response['msg'];
+      $data = $response->data;
+      $data['error'] = $response->msg;
       echo $tpl->mobiLayout($tpl->loadTemplate('edit_entries', $data));
     }
   }
