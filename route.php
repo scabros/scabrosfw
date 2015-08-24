@@ -1,15 +1,14 @@
 <?php
-require('load.php');
+require_once('core/Router.php');
 
-/*
 $routes = array(
-  '0' => array('blog/posts', ''),
+  array("#view/posts/([0-9]+)$#i", 'post.php', array('id')),
 );
-		<route pattern="news/allposts(/?)" route="news/all/"></route>
-		<route pattern="news/post/([-_a-z0-9]+)(/?)" route="news/view/$1"></route>
-		<route pattern="news(/?)" route="news/"></route>
-	</routes>
-</configuration>
-*/
 
-var_dump(Router::_getPath());
+$path = Router::dispatch($routes);
+
+
+/*if(preg_match('#view/posts/([0-9]+)$#i', $path, $matches)){
+  $_GET['id'] = $matches[1];
+  require('post.php');
+}*/

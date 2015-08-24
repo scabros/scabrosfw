@@ -1,82 +1,8 @@
 <?php
 
-/**
- *
- * @author Orkhan Z. Maharramli (orkhan.maharramli@gmail.com)
- *
- */
+class Router {
 
-class Router
-{
-    public $path;
-    public $config;
-    public $routes = array();
-   
-    private static $instance;
-   
-    public static function getInstance()
-    {
-        if (self::$instance === null)
-        {
-            self::$instance = new self();
-        }
-        return self::$instance;
-    }
-   
-    public function __construct()
-    {
-        $this->config = Config::getInstance();
-        $this->routes = $this->_getRoutes();
-        $this->path = $this->_getPath();
-        header("HTTP/1.0 404 Not Found");
-        return;
-    }
-   
-    public function __destruct()
-    {
-        $this->routes = array();
-        $this->config = null;
-        $this->path = null;
-    }
-   
-    public function __get($name)
-    {
-        return $this->{$name};
-    }
-   
-    /**
-     *
-     * Get routes from XML
-     *
-     * @return array Router Configs
-     *
-     */
-    protected function _getRoutes()
-    {
-        if(count($this->config->routes->route) > 0)
-        {
-            foreach($this->config->routes->route as $routes)
-            {
-                $routes_array[(string)$routes->attributes()->pattern] = (string)$routes->attributes()->route;
-            }
-        }
-        else
-        {
-            $routes_array = array();
-        }
-       
-        return $routes_array;
-    }
-   
-    /**
-     *
-     * Get path from $_SERVER
-     *
-     * @return string URL
-     *
-     */
-    public static function _getPath()
-    {
+    public static function dispatch($routes){
         if(isset($_SERVER['PATH_INFO'])){
             $uri = $_SERVER['PATH_INFO'];
         } elseif(isset($_SERVER['REQUEST_URI'])){
@@ -112,20 +38,24 @@ class Router
        
         $uri = ltrim($uri, '/');
        
-        return $uri;
-        if(count($this->routes) > 0){
-            foreach($this->routes as $pattern => $route){
-                if(preg_match("~$pattern~", $uri)){
-                    $uri = preg_replace("~$pattern~", $route, $uri);
-                    $uri = str_replace(array('//', '../'), '/', trim($uri, '/'));
-                    $uri = explode('/', $uri);
+        //return $uri;
+        if(count($routes) > 0){
+            foreach($routes as $route){
+                if(preg_match($route[0], $uri, $matches)){
+                    // discard first 
+                    array_shift($matches);
+                    // load all matches in the corresponding GET keys...
+                    foreach ($matches as $key => $value) {
+                        $_GET[$route[2][$key]] = $value;
+                    }
+                    // all setted up, now require the micro-controller...
+                    require($route[1]);
+                } else {
+                    trigger_error('PAGE_NOT_FOUND|Maybe wrong parameters?');
                 }
             }
         } else {
-            $uri = str_replace(array('//', '../'), '/', trim($uri, '/'));
-            $uri = explode('/', $uri);
+            trigger_error('PAGE_NOT_FOUND|Empty routes?');
         }
-       
-        return $uri;
     }
-} 
+}
