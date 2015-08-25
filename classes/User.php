@@ -15,11 +15,10 @@ class User {
       return M::cr(false, $data, $response['msg']);
     }
 
-    Sql::$conn = connectDB();
-    $user = Sql::esc($data['user']);
-    $pass = Sql::esc($data['pass']);
+    PDOSql::$pdobj = pdoConnect();
 
-    $u = Sql::fetch("SELECT id, adm from users where adm ='".$user. "' AND pass = MD5('".$pass."') AND active = 1");
+    $params = array($data['user'], $data['pass']);
+    $u = PDOSql::select("SELECT id, adm from users where adm = ? AND pass = MD5(?) AND active = 1", $params);
     
     if(count($u) == 1){
       $_SESSION['userID']   = $u[0]['id'];
@@ -35,10 +34,10 @@ class User {
   }
 
   static function getData($id){
-    Sql::$conn = connectDB();
-    $query = "SELECT name, bg_image, subtitle FROM users WHERE id = '".Sql::esc($id). "'";
+    PDOSql::$pdobj = pdoConnect();
     
-    $d = Sql::fetch($query);
+    $d = PDOSql::select("SELECT name, bg_image, subtitle FROM users WHERE id = ?", array($id));
+
     if(count($d) > 0){
     
       $data['name']     = $d[0]['name'];

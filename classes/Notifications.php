@@ -10,7 +10,7 @@ class Notifications {
       $pj = $pj['data'];
     }
     
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     $iduser = Sql::esc($pj['iduser']);
     $msg = Sql::esc(str_replace('{%NAME%}', $pj['name'], $msg));
@@ -19,7 +19,7 @@ class Notifications {
   }
 
   static function getAll(){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     $iduser = Sql::esc($_SESSION['userID']);
     $res = Sql::fetch("SELECT * FROM notifications WHERE iduser = '$iduser' ORDER BY sent_date DESC");
@@ -31,7 +31,7 @@ class Notifications {
   }
 
   static function markAsRead($id){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     $id = Sql::esc($id);
     $iduser = Sql::esc($_SESSION['userID']);
@@ -45,7 +45,7 @@ class Notifications {
   }
 
   static function deleteOld(){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     $id = Sql::esc($id);
     $iduser = Sql::esc($_SESSION['userID']);

@@ -3,7 +3,7 @@
 class Collections {
 
   static function races(){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     $races = Sql::fetch("SELECT * from races ORDER BY id ASC");
     $r = array();
     foreach($races as $race){
@@ -28,7 +28,7 @@ class Collections {
       }
       return $c;
     } else {
-      Sql::$conn = connectDB();
+      PDOSql::$pdobj = pdoConnect();
       $cats = Sql::fetch("SELECT categoria, subcategoria from cats ORDER BY id ASC");
       $c = array();
       foreach($cats as $cat){
@@ -42,7 +42,7 @@ class Collections {
 
   static function subcategoriasOLD($categoria = ''){
     
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $q = "SELECT id, clave, valor, padre from subcategorias ORDER BY id ASC";
 
@@ -110,7 +110,7 @@ class Collections {
 
   static function tieneCatCustom($clientID){
     
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     $tbl_name = "custom_cats_".$clientID;
 
     //$s = Sql::numRows($res) > 0;
@@ -133,7 +133,7 @@ class Collections {
 
     $tbl_name = "custom_cats_".$_SESSION['clientID'];
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $categoria = Sql::esc($data['categoria']);
     $subcat = Sql::esc($data['subcategoria']);
@@ -155,7 +155,7 @@ class Collections {
 
     $tbl_name = "custom_cats_".$_SESSION['clientID'];
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $categoria = Sql::esc($data['categoria']);
     $subcat = Sql::esc($data['subcategoria']);
@@ -187,7 +187,7 @@ class Collections {
 
     $tbl_name = "custom_cats_".$_SESSION['clientID'];
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $id = Sql::esc($id);
     
@@ -206,7 +206,7 @@ class Collections {
 
     $tbl_name = "custom_cats_".$_SESSION['clientID'];
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $id = Sql::esc($id);
     
@@ -225,7 +225,7 @@ class Collections {
 
     $tbl_name = "custom_cats_".$_SESSION['clientID'];
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     
     $id = Sql::esc($id);
     
@@ -240,7 +240,7 @@ class Collections {
 
   static function provincias(){
 
-      Sql::$conn = connectDB();
+      PDOSql::$pdobj = pdoConnect();
       $provs = Sql::fetch("SELECT * from provincia ORDER BY provincia_nombre ASC");
       $p = array();
       foreach($provs as $prov){
@@ -256,7 +256,7 @@ class Collections {
 
   static function localidades($provincia = null){
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     if(!empty($provincia)){
       $where = " WHERE provincia_id ='".Sql::esc($provincia)."'";
@@ -277,7 +277,7 @@ class Collections {
   }
 
   static function rubros(){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     $rubs = Sql::fetch("SELECT rubro from rubros_generales ORDER BY id");
     $r = array();
     foreach($rubs as $rub){

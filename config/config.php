@@ -3,8 +3,11 @@
 define('URL', 'http://localhost/xampp/scabrosfw/');
 define('SYSROOT', 'C:\xampp\htdocs\xampp\scabrosfw\\');
 define('COREROOT', SYSROOT.'core/');
-define('WEBROOT', SYSROOT);
-define('DATAROOT', SYSROOT.'data/');
+
+// upload dirs... in filesystem and web...
+define('DATAROOT', SYSROOT.'data\\');
+define('UPLOADS', URL.'data/');
+
 define('DOMAIN', 'http://localhost/xampp/scabrosfw/');
 define('TITLE', 'ScabrosFW');
 

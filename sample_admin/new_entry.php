@@ -7,12 +7,12 @@ if(!isset($_POST['enviar'])){
   $error = array();
 } else {
   $response = Entries::newEntry($_POST);
-  if($response['success']){
-  	setNotification('success', $response['msg']);
+  if($response->success){
+  	setNotification('success', $response->msg);
     redirect('entries.php');
   } else {
-    $data = $response['data'];
-    $data['msg'] = $response['msg'];
+    $data = $response->data;
+    $data['msg'] = $response->msg;
   }
   
 }

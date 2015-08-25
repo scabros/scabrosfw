@@ -3,10 +3,9 @@
 class Entries {
   
   static function get($id = null){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
-    $sql = "SELECT * FROM entries WHERE id = ".Sql::esc($id)." ORDER BY id DESC";
-    $p = Sql::fetch($sql);
+    $p = PDOSql::select("SELECT * FROM entries WHERE id = ? ORDER BY id DESC", array($id));
     
     if(count($p) == 0){
 
@@ -24,15 +23,19 @@ class Entries {
   }
   
   static function getAll($author = null){
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
+
+    $sql = "SELECT * FROM entries {%WHERE%} ORDER BY date DESC";
 
     if(!empty($author)){
-      $filter =  "WHERE author = '".Sql::esc($author)."'";
+      $where = array('author = ?');
+      $bind = array($author);
     } else {
-      $filter = '';
+      $where = '';
+      $bind = array();
     }
     
-    $p = Sql::fetch("SELECT * FROM entries $filter ORDER BY date DESC");
+    $p = PDOSql::select($sql, $bind, $where);
     
     if(count($p) == 0){
 
@@ -64,31 +67,24 @@ class Entries {
       return M::cr(false, $data, $response['msg']);
     }
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
-    $title  = Sql::esc($data['title']);
-    $author = Sql::esc($_SESSION['userNAME']);
-    $text   = Sql::esc($data['text']);
-    $tags   = Sql::esc($data['tags']);
-    
-    if(isset($_FILES['foto']['name'])){
-      $image = Sql::esc($_FILES['foto']['name']);
+    if(isset($_FILES['image']['name'])){
+      $response = File::up2Web($_FILES['image']);
+      if($response->success){
+        $image = $response->data[0];
+      } else {
+        return M::cr(false, $data, $response->msg);
+      }
     } else {
       $image = '';
     }
-    
-    Sql::beginTransac();
-    
-    $i = "INSERT INTO entries (title, author, text, date, image, tags) VALUES 
-      ('".$title."', '".$author."', '".$text."', NOW(), '".$image."', '".$tags."')";
-    
-    $c = Sql::insert($i);
 
-    Sql::commitTransac();
+    $params = array($data['title'], $_SESSION['userNAME'], $data['text'], $image, $data['tags']);
     
-    if(isset($_FILES['foto']['tmp_name'])){
-      move_uploaded_file($_FILES['foto']['tmp_name'], WEBROOT."data/".$c);
-    }
+    $i = "INSERT INTO entries (title, author, text, date, image, tags) VALUES (?, ?, ?, NOW(), ?, ?)";
+    
+    $c = PDOSql::insert($i, $params);
     
     return M::cr(true, array($c), 'Se ha creado el posteo');
   }
@@ -109,24 +105,28 @@ class Entries {
       return M::cr(false, $data, $response['msg']);
     }
     
-    Sql::$conn = connectDB();
-    
-    if(!empty($_FILES['image']["tmp_name"])){
-      $imgData = " image = '".Sql::esc($_FILES['image']['name'])."', ";
-      move_uploaded_file($_FILES['image']["tmp_name"], WEBROOT.'data/'.$data['id']);
+    PDOSql::$pdobj = pdoConnect();
+
+    if(isset($_FILES['image']['name'])){
+      $response = File::up2Web($_FILES['image']);
+      if($response->success){
+        // remove old image...
+        if(isset($data['old_image'])){
+          File::unlinkWeb($data['old_image']);
+        }
+        $image = $response->data[0];
+      } else {
+        return M::cr(false, $data, $response->msg);
+      }
     } else {
-      $imgData = "";
+      $image = '';
     }
     
-    $id = $data['id'];
+    $params = array($data['title'], $data['text'], $image, $data['tags'], $data['id'], $_SESSION['userNAME']);
+    $where = array(' id = ?', 'author = ?');
     
-    $query = "UPDATE entries SET title = '".Sql::esc($data['title']). "', 
-      author = '".Sql::esc($_SESSION['userNAME']). "', 
-      text = '".Sql::esc($data['text']). "', 
-      $imgData 
-      tags = '".Sql::esc($data['tags']). "' 
-      WHERE id = '$id'"; 
-    Sql::update($query);
+    $query = "UPDATE entries SET title = ?, text = ?, image = ?, tags = ? {%WHERE%}"; 
+    PDOSql::update($query, $params, $where);
     
     return M::cr(true, array(), 'Se han actualizado los datos correctamente');
   }

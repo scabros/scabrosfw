@@ -23,7 +23,7 @@ class Utils {
       );
     }
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
 
     $email = Sql::esc($data['email']);
     
@@ -86,7 +86,7 @@ class Utils {
 	}
 
 	static function resetPassword($data){
-		Sql::$conn = connectDB();
+		PDOSql::$pdobj = pdoConnect();
 		$hash = Sql::esc($data['h']);
 		$type = Sql::esc($data['t']);
 		$email = Sql::esc($data['q']);

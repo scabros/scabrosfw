@@ -11,9 +11,9 @@ class T {
 
   public static function sh($varname){
     if(isset(self::$vars[$varname])){
-      return self::$vars[$varname];
+      echo self::$vars[$varname];
     } else {
-      return '';
+      echo '';
     }
   }
 

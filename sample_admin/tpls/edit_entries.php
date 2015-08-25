@@ -10,6 +10,7 @@ Texto (*): <textarea style="width:100%" name="text" required><?php echo $text; ?
 Tags (*): <input type="text" name="tags" value="<?php echo $tags; ?>" />
 Imagen (*): <input type="file" id="image" name="image" />
 <input type="hidden" name="id" value="<?php echo $id; ?>" />
+<input type="hidden" name="old_image" value="<?php T::sh('image'); ?>" />
 <input type="submit" name="accion" value="Guardar" class="envio" />
 
 </form>

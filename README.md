@@ -90,7 +90,7 @@ class Admin {
       return M::cr(false, $data, $response['msg']);
     }
 
-    Sql::$conn = connectDB();
+    PDOSql::$pdobj = pdoConnect();
     $user = Sql::esc($data['user']);
     $pass = Sql::esc($data['pass']);
   
