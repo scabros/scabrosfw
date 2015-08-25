@@ -10,6 +10,17 @@ function connectDB(){
   return $link;
 }
 
+function pdoConnect(){
+  try {
+    // connect to the database
+    $DBH = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
+    $DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
+  } catch(PDOException $e) {
+    trigger_error('PDOERROR|'.$e->getMessage());
+  }
+  return $DBH;
+}
+
 function sys_error($errno, $errstr, $errfile, $errline){
   
   // limpiamos el error de la sesion
