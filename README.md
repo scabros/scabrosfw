@@ -117,6 +117,60 @@ class Admin {
   }
 ```
 
+## Routing:
+
+This is not something i like but any modern FW must include this feature.
+So i implemented it in a very _homemade_ way... The webserver should check
+the existence of any requested resource (an url) and if it does not exists,
+it should "redirect" (or in this case, include) a matching micro-controller.
+We define the special class *Router* and and special php file in the root of 
+the framework folder route.php that contains the regular expressions to match
+against the URI. it must include the micro-controller to be included and an 
+array of the custom URI segments that should be passed as $_GET vars...
+
+### In apache:
+You should use the .htaccess file with some minor modifications to make it match
+your current setup.
+
+```
+# If requested resource exists as a file or directory, skip next two rules
+RewriteEngine On
+RewriteCond %{DOCUMENT_ROOT}/$1 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -d
+# Else rewrite requests for non-existent resources to /index.php
+RewriteRule (.*) /route.php?q=$1 [L]
+```
+
+### In nginx:
+The same logic applies here, but it is applied in the server config snippet. 
+in this case the magic is in the _try_files_ expression.
+
+```
+server {
+  root /some/folder/scabrosfw;
+  server_name scabrostest;
+  index index.php;
+
+  location / {
+    try_files $uri $uri/ /route.php?$args;
+  }
+
+  location ~ \.php$ {
+    gzip  on;
+    gzip_min_length  1000;
+    gzip_proxied     expired no-cache no-store private auth;
+    gzip_types       text/plain application/xml;
+    gzip_disable     "MSIE [1-6]\.";
+
+    fastcgi_pass 127.0.0.1:9000;
+    fastcgi_intercept_errors on;
+    fastcgi_index index.php;
+    include fastcgi_params;
+  }
+}
+
+```
+
 ## Conventions:
 - All of your custom classes should be in the classes folder of the framework
 - All your micro-controllers should load the framework requiring the file 

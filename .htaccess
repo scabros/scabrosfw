@@ -1,8 +1,7 @@
 # If requested resource exists as a file or directory, skip next two rules
 RewriteEngine On
-RewriteCond %{DOCUMENT_ROOT}/xampp/scabrosfw/$1 -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/xampp/scabrosfw/$1 -d
-RewriteRule (.*) - [S=2]
+RewriteCond %{DOCUMENT_ROOT}/$1 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -d
 #
 # Else rewrite requests for non-existent resources to /index.php
-RewriteRule (.*) /xampp/scabrosfw/route.php?q=$1 [L]
+RewriteRule (.*) /route.php?q=$1 [L]

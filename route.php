@@ -2,7 +2,7 @@
 require_once('core/Router.php');
 
 $routes = array(
-  array("#view/posts/([0-9]+)$#i", 'post.php', array('id')),
+  array("#view/posts/([0-9]+)#i", 'post.php', array('id')),
 );
 
 $path = Router::dispatch($routes);
