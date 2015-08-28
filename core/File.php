@@ -64,4 +64,13 @@ class File {
   public static function unlinkWeb($img){
     unlink(DATAROOT.$img);
   }
+
+  public static function up2Blob($img){
+    
+  }
+
+  public static function up2Dir($img){
+    
+  }
+
 }
