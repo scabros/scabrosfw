@@ -52,22 +52,24 @@ but he is encouraged to follow some key concepts.
 ```
 <?php
 require('../load.php');
+
 if(!isset($_POST['entrar'])){
   
   $data = array('user' => '');
   $error = array();
- 
+  
 } else {
   
-  $response = Admin::login($_POST);
-  if($response['success']){
-    redirect('admin.php');
+  $response = User::login($_POST);
+  if($response->success){
+    redirect('user.php');
   } else {
-    $data = $response['data'];
-    $data['msg'] = $response['msg'];
+    $data = $response->data;
+    $data['msg'] = $response->msg;
   }
   
 }
+
 $tpl = new Layout();
 echo $tpl->mobiLayout($tpl->loadTemplate('login', $data));
 ```
@@ -76,13 +78,15 @@ echo $tpl->mobiLayout($tpl->loadTemplate('login', $data));
 
 ```
 <?php
-class Admin {
+
+class User {
   
   static function login($data){
     
     $p = array(
       'user' => array('required' => true, 'type' => 'string', 'label' => 'Usuario', 'maxLength' => 30)
     );
+
     $v = new Validator();
     $response = $v->validate($data, $p);
     
@@ -91,13 +95,12 @@ class Admin {
     }
 
     PDOSql::$pdobj = pdoConnect();
-    $user = Sql::esc($data['user']);
-    $pass = Sql::esc($data['pass']);
-  
-    $u = Sql::fetch("SELECT id, adm from users where adm ='".$user. "' AND pass = MD5('".$pass."')");
+
+    $params = array($data['user'], $data['pass']);
+    $u = PDOSql::select("SELECT id, adm from users where adm = ? AND pass = MD5(?) AND active = 1", $params);
     
     if(count($u) == 1){
-      $_SESSION['adminID']   = $u[0]['id'];
+      $_SESSION['userID']   = $u[0]['id'];
       $_SESSION['userNAME'] = $u[0]['adm'];
       
       return M::cr(true);
@@ -105,10 +108,32 @@ class Admin {
     } else {
       
       return M::cr(false, array('user' => $data['user']), 'Usuario o contraseña invalida');
-            
+      
     }
   }
 ```
+
+## Low Level classes:
+
+We have two key classes that act at the most "deep" level of the frawmework. 
+These are the M and T classes. 
+
+- T class is for managing the template variables. Basically showing vars and 
+translating them.
+- M class is the core messaging of the frawmework. it has only one static method 
+that returns an StdClass Object with three properties: succes, data and msg. All 
+classes should return one of this to leave the developer know the status of the 
+performed action.
+
+## Showing notifications
+
+When you perform any action, you can use the msg attribute of the M response object 
+to show a notification in the screen. This notification is implemented via a Jquery
+plugin "NotifyIt", and the php function setNotification in core.php. In all the
+Layouts should be included a call to getNotification that triggers the notification.
+An example of use is when you create a new record succesfully, maybe you want to 
+redirect to the listing directly. Then you could use this notification system to show
+the user the result of the action.
 
 ## Routing:
 
