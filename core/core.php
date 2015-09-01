@@ -21,6 +21,21 @@ function pdoConnect(){
   return $DBH;
 }
 
+function checkSystemPermissions($class, $method){
+  $access = true;
+  $rules = $RULES[$class][$method];
+  foreach($rules as $r){
+    if($r == 'logged_in'){ 
+      $access = checkLogin();
+    }
+
+    if(!in_array($r, $_SESSION['system_permissions']){
+      $access = false;
+    }
+  }
+  return $access;
+}
+
 function sys_error($errno, $errstr, $errfile, $errline){
   
   // limpiamos el error de la sesion

@@ -1,8 +1,8 @@
 <?php 
 
-class Entries {
+class Entries extends App {
   
-  static function get($id = null){
+  public static function get($id = null){
     PDOSql::$pdobj = pdoConnect();
 
     $p = PDOSql::select("SELECT * FROM entries WHERE id = ? ORDER BY id DESC", array($id));
