@@ -222,3 +222,14 @@ Currently the framework includes some other work or projects:
 
 This is a work in progress, any advice or help is welcome. I dont believe i am 
 a genius, this CAN have problems so check it out.
+I am concious that using static functions inside classes is a "bad practice". 
+We can discuss for a while about complexity/normalization vs simplicity/sloppiness.
+I think we should try to respect and follow what is called "good practices". But i 
+also believe that we should search some techniques that make our work easier. That's 
+the reason behind some "regretable" decisions i made. Just to name a few i am aware of:
+
+- PDOSql is a static class because i dont have Models. So any script might need
+direct database access. But, i left the connection logic outside to explicitly force
+the developer to do it manually (also enabling the possibility to connect to another BD)
+-trigger_error use: i dont use exceptions because a generic error page and good 
+logging seems enough for me. 
