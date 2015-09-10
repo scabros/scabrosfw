@@ -29,7 +29,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; <?php echo TITLE. ' '.date('Y'); ?></p>
                 </div>
             </div>
         </div>

@@ -5,12 +5,12 @@
 
 <form action="" method="post" id="editar-datos" enctype="multipart/form-data">
 
-Titulo (*): <input type="text" name="title" required value="<?php echo $title; ?>" />
-Texto (*): <textarea style="width:100%" name="text" required><?php echo $text; ?></textarea>
-Tags (*): <input type="text" name="tags" value="<?php echo $tags; ?>" />
+Titulo (*): <input type="text" name="title" required value="<?php V::show('title'); ?>" />
+Texto (*): <textarea style="width:100%" name="text" required><?php V::show('text'); ?></textarea>
+Tags (*): <input type="text" name="tags" value="<?php V::show('tags'); ?>" />
 Imagen (*): <input type="file" id="image" name="image" />
-<input type="hidden" name="id" value="<?php echo $id; ?>" />
-<input type="hidden" name="old_image" value="<?php T::sh('image'); ?>" />
+<input type="hidden" name="id" value="<?php V::show('id'); ?>" />
+<input type="hidden" name="old_image" value="<?php V::show('image'); ?>" />
 <input type="submit" name="accion" value="Guardar" class="envio" />
 
 </form>

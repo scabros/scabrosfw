@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <?php foreach ($posts as $p) { ?>
+                <?php foreach (V::get('posts') as $p) { ?>
                 <div class="post-preview">
                     <a href="post.php?id=<?php echo $p['id'];?>">
                         <h2 class="post-title"><?php echo $p['title'];?></h2>
