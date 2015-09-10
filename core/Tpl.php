@@ -32,8 +32,8 @@ class Tpl {
     try {
 
       // load vars in T
-      require_once(COREROOT.'T.php');
-      T::set($_vars_);
+      require_once(COREROOT.'V.php');
+      V::set($_vars_);
 
       // TODO: remove and work only with T?
       extract($_vars_, EXTR_OVERWRITE);

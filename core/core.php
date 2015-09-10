@@ -29,7 +29,7 @@ function checkSystemPermissions($class, $method){
       $access = checkLogin();
     }
 
-    if(!in_array($r, $_SESSION['system_permissions']){
+    if(!in_array($r, $_SESSION['system_permissions'])){
       $access = false;
     }
   }
