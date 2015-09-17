@@ -36,6 +36,19 @@ function checkSystemPermissions($class, $method){
   return $access;
 }
 
+function checkSystemAccess($url){
+  $access = true;
+  $checks = $ACCESS[$url];
+  foreach($checks as $c){
+    if($c == 'logged_in'){ 
+      $access = checkLogin();
+    } else if(!in_array($c, $_SESSION['system_permissions'])){
+      $access = false;
+    }
+  }
+  return $access;
+}
+
 function sys_error($errno, $errstr, $errfile, $errline){
   
   // limpiamos el error de la sesion
@@ -278,3 +291,4 @@ spl_autoload_register("autoloader");
 // manejo custom de errores
 set_error_handler('sys_error'); // common errors
 register_shutdown_function( "fatal_handler" ); // fatal errors
+checkSystemAccess($_SERVER['PHP_SELF']);
