@@ -6,7 +6,7 @@ if(!isset($_POST['enviar'])){
   $data = array();
   $error = array();
 } else {
-  $response = Entries::newEntry($_POST);
+  $response = Entries::create($_POST);
   if($response->success){
   	setNotification('success', $response->msg);
     redirect('entries.php');

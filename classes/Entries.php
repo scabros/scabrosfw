@@ -52,7 +52,7 @@ class Entries extends App {
     }
   }
   
-  static function newEntry($data){
+  private static function create($data){
     $p = array(
       'title'  => array('required' => true, 'type' => 'string', 'maxlength' => 140, 'label' => 'Titulo'),
       'text' => array('required' => true, 'type' => 'string', 'label' => 'Texto'),

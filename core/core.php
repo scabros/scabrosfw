@@ -291,4 +291,4 @@ spl_autoload_register("autoloader");
 // manejo custom de errores
 set_error_handler('sys_error'); // common errors
 register_shutdown_function( "fatal_handler" ); // fatal errors
-checkSystemAccess($_SERVER['PHP_SELF']);
+//checkSystemAccess($_SERVER['PHP_SELF']);
