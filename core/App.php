@@ -11,6 +11,7 @@ class App {
     Utils::log("Calling object method '$name' ". implode(', ', $arguments));
     // check custom access rules
     self::checkPermissions(__CLASS__, $name);
+    $this->$name($arguments);
   }
 
   /**  As of PHP 5.3.0  */
@@ -18,6 +19,7 @@ class App {
     Utils::log("Calling static method '$name' ". implode(', ', $arguments));
     // check custom access rules
     self::checkPermissions(__CLASS__, $name);
+    __CLASS__::$name($arguments);
   }
 
   private static function checkPermissions($class, $method){
