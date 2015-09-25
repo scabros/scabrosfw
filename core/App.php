@@ -8,17 +8,16 @@
 class App {
 
   public function __call($name, $arguments){
-    // Note: value of $name is case sensitive.
-    echo "Calling object method '$name' "
-     . implode(', ', $arguments). "\n";
+    Utils::log("Calling object method '$name' ". implode(', ', $arguments));
+    // check custom access rules
+    self::checkPermissions(__CLASS__, $name);
   }
 
   /**  As of PHP 5.3.0  */
   public static function __callStatic($name, $arguments){
+    Utils::log("Calling static method '$name' ". implode(', ', $arguments));
+    // check custom access rules
     self::checkPermissions(__CLASS__, $name);
-    // Note: value of $name is case sensitive.
-    echo "Calling static method '$name' "
-    . implode(', ', $arguments). "\n";
   }
 
   private static function checkPermissions($class, $method){
